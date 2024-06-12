@@ -6,7 +6,7 @@ pascal's triangle
 
 def pascal_triangle(n):
     """
-    Generates pascal's triangle (inteeractive approach)
+    Generates pascal's triangle (interactive approach)
     Args:
         n: the number of rows in the triangle
     Returns:
@@ -19,3 +19,4 @@ def pascal_triangle(n):
             row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
         triangle.append(row)
     return triangle
+
